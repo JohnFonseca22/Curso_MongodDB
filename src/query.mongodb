@@ -1,1 +1,3 @@
-use()
+use("sample_training")
+
+db.zips.find({state : "NY"})
